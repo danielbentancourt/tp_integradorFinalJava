@@ -128,3 +128,10 @@ const resetTotalAPagar = () => {
     totalPago.innerHTML = "";
 }
 btnBorrar.addEventListener('click', resetTotalAPagar);
+
+
+const btnPagarMP = document.getElementById("btnPagarMP");
+
+btnPagarMP.addEventListener('click', () => {
+    window.open('./pagarMercadoPago.html', '_blank');
+});

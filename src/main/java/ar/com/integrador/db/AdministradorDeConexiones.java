@@ -11,7 +11,7 @@ public class AdministradorDeConexiones {
 		String port = "3306";
 		String password = "";
 		String username = "root" ;
-		String nombredb = "integrador_cac";
+		String nombredb = "integrador";
 		
 		// driver de conexion a la base de datos
 		String driveClassName = "com.mysql.cj.jdbc.Driver";
